@@ -1,2 +1,7 @@
 export const USER_RESPONSE = "USER_RESPONSE";
 export const BOT_RESPONSE = "BOT_RESPONSE";
+export const CONV_ID = "CONV_ID";
+export const CLOSE_CONNECTION = "CLOSE_CONNECTION";
+export const OPEN_CONNECTION = "OPEN_CONNECTION";
+export const DATA_REFRESHED = "DATA_REFRESHED";
+

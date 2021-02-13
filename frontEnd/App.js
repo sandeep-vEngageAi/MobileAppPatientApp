@@ -1,25 +1,23 @@
-import React from "react";
-import { StyleSheet, Text, View, Switch } from "react-native";
+import React, { useState } from "react";
+import { View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import { Provider } from 'react-redux';
-import store  from './store/store';
-
+import { Provider } from "react-redux";
+import store from "./store/store";
 
 import DrawerNavigator from "./Navigations/DrawerNavigator";
-// import TestSchedule from "./TestSchedule/TestSchedule";
+
+const wait = (timeout) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, timeout);
+  });
+};
 
 export default function App() {
   return (
-    <Provider store = {store}>
-
-    <NavigationContainer>
-      <DrawerNavigator />
-    </NavigationContainer>
-     </Provider>
+    <Provider store={store}>
+      <NavigationContainer>
+        <DrawerNavigator />
+      </NavigationContainer>
+    </Provider>
   );
 }
-// export default function App() {
-//   return (
-//    <TestSchedule />
-//   );
-// }

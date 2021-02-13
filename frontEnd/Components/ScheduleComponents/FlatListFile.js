@@ -13,7 +13,7 @@ const FlatListBasics = () => {
   return (
     <SafeAreaView>
       <FlatList
-        keyExtractor={(item, index) => item.id}
+        keyExtractor={item => item.id.toString()}
         data={[
           {
             key: "Antibiotic | TAB Ceftum",

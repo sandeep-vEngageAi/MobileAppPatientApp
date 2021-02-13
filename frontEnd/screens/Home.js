@@ -3,9 +3,7 @@ import React from "react";
 import HeaderPage from "../Components/HomeComponents/HeaderPage";
 import ChatBody from "../Components/HomeComponents/ChatBody";
 import ChatInput from "../Components/HomeComponents/ChatInput";
-// import BottomPages from "../HomeComponents/BottomPages";
-import { StyleSheet, Text, View,Button } from "react-native";
-// import CameraIcon from "../HomeComponents/FileComponents/CameraIcon";
+import { StyleSheet, View} from "react-native";
 export default function Home(props) {
 
   return (
@@ -15,11 +13,8 @@ export default function Home(props) {
       <View style={styles.mainBody}>
 
         <ChatBody />
-        {/* <CameraIcon /> */}
-        {/* <Websocket /> */}
       </View>
       <ChatInput />
-      {/* <BottomPages {...props}/> */}
       <StatusBar style="auto" />
 
     </View>

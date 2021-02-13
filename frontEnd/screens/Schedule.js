@@ -20,28 +20,28 @@ export default function Schedule(props) {
           snapToInterval={91} 
           snapToAlignment={"start"}
         >
-          <CardS />
-          <CardS2 />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
           <CardS3 />
           <CardS4 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS />
-          <CardS2 />
-          <CardS2 />
-          <CardS2 />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS key={Math.random(1,1000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS2 key={Math.random(1000,2000)} />
+          <CardS2 key={Math.random(1000,2000)} />
         </ScrollView>
       </View>
       <StatusBar style="auto" />
